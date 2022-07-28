@@ -1,0 +1,89 @@
+$myColor: #ff0000;
+$height: '2.5rem';
+
+.header {
+    background: $myColor;
+    height: $height;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-items: center;
+}
+
+.body {
+    background-color: burlywood;
+}
+
+.App {
+    background-color: #ff0000;
+}
+
+.bodyin {
+    display: flex;
+    padding: 0;
+    padding-top: 0%;
+}
+
+.sidebar {
+    height: 100vh;
+    margin-top: 0%;
+    min-width: 20rem;
+    background-color: #ff0000;
+}
+
+.navbody {
+    background-color: aqua;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.childspage {
+    width: 100%;
+    height: 100%;
+}
+.centerinchild{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexcol{
+    display: flex;
+    flex-direction: column;
+}
+.flexrow{
+    display: flex;
+}
+.flexfull{
+    flex:1
+}
+.navtab{
+    align-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1.5px;
+    background-color: beige;
+}
+.navactive{
+    background-color: rgb(168, 131, 87);
+}
+.fontbig{
+    font-size: 1.7rem;
+}
+.paddinghorizontal{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.marginhorizontal{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.boxcomment{
+    width:40%;
+    padding: 20px;
+    background-color: beige;
+}
+.button{
+    font-size: 1.2rem;
+}
